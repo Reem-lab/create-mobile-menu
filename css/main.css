@@ -27,8 +27,78 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
-  display: none;
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.exit {
+  position: absolute;
+  right: 40px;
+  top: 25px;
+  cursor: pointer;
+}
+
+.main-nav {
+  position: absolute;
+  inset: 0;
+  background-color: #091e42;
+  transform: translateX(-100%);
+  transition: 0.5s;
+  z-index: 10;
+  backdrop-filter: blur(0.25rem);
+}
+
+.main-nav-active {
+  transform: translateX(0%);
+}
+
+.main-nav:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.main-nav li {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.ul-menu {
+  flex-direction: column;
+  margin: 50px;
+}
+
+.menu-icon {
+  display: block;
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+
+.li-menu {
+  width: 150px;
+  height: auto;
+}
+
+#desktop-nav,
+#desktop-nav ul {
+  /* display: none; */
 }
 
 #logo {
@@ -225,18 +295,6 @@ main {
   bottom: 0;
   left: 0;
   right: 0;
-}
-
-li {
-  list-style: none;
-  font-family: "Inter", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 43px;
-  text-align: center;
-  color: #fff;
-  padding: 5px;
 }
 
 .card-stacks li {
