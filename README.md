@@ -1,6 +1,55 @@
-# curriculum-cr-training-mobile-menu
+![](https://img.shields.io/static/v1?label=BY&message=Reemoz&color=pink)
+<!-- Feel Free to Add, Update, Delete Any Section you find needs so -->
+
+# Portfolio
+
+> A Simple Software Engineer Portfolio App Made with Vanilla HTML5, CSS3. The Project Contains a Showcase with Information About Me, All of My Works (Apps), and a Contact Form for Communication
 
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+## Built With
 
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
+- Languages: _**HTML, CSS**_
+- Technologies used: _**GIT, GITHUB, LINTERS**_
+
+## Getting Started
+
+### Setup
+
+- **Open** the terminal.
+- **Run** `cd \path\to\where\you\want\your\local\copy`
+- **Clone** the repo
+  1. **Run** git clone `https://github.com/Reem-lab/create-mobile-menu`
+  2. **Run** cd create-mobile-menu
+
+
+## Authors
+
+<!-- Only Change Username for Different Accounts -->
+
+👤 **Reem**
+
+ Platform | Badge |
+ --- | --- |
+- **GitHub** | [![@Reem-Lab](https://img.shields.io/github/followers/reem-lab?label=Reem-Lab&style=social)](https://github.com/reem-lab)
+- **Twitter**| [![@Rem79940127](https://img.shields.io/twitter/follow/Rem79940127?label=Rem79940127&style=social)](https://twitter.com/Rem79940127)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](/LICENSE) licensed.
