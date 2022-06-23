@@ -92,10 +92,10 @@ li {
 
 .seprator {
   height: 1px;
-width: 327px;
-background-color:#6F6C6B;
-position: absolute;
-margin-right: 2px;
+  width: 327px;
+  background-color: #6f6c6b;
+  position: absolute;
+  margin-right: 2px;
 }
 
 .li-menu {
@@ -510,8 +510,6 @@ textarea {
     width: 380px;
     height: auto;
   }
-
-
 
   .main-nav {
     width: 35%;
