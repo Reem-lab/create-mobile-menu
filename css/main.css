@@ -41,7 +41,7 @@ header {
 .main-nav {
   position: absolute;
   inset: 0;
-  background-color: #091e42;
+  background-color: #3c3a39;
   transform: translateX(-100%);
   transition: 0.5s;
   z-index: 10;
@@ -87,8 +87,15 @@ li {
 
 .menu-icon {
   display: block;
-  filter: brightness(0.5);
   cursor: pointer;
+}
+
+.seprator {
+  height: 1px;
+width: 327px;
+background-color:#6F6C6B;
+position: absolute;
+margin-right: 2px;
 }
 
 .li-menu {
@@ -480,6 +487,36 @@ textarea {
     position: absolute;
     left: 5px;
     bottom: 35%;
+  }
+
+  .ul-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: 0.8s;
+    margin: 0;
+    padding: 0;
+  }
+
+  .ul-menu a {
+    color: #fff;
+    margin-right: 25px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+
+  .header-name {
+    display: block;
+    width: 380px;
+    height: auto;
+  }
+
+
+
+  .main-nav {
+    width: 35%;
+    margin-top: 30px;
+    all: unset;
   }
 
   .mobile-icon {
