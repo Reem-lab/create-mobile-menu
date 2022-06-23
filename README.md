@@ -18,8 +18,8 @@
 - **Open** the terminal.
 - **Run** `cd \path\to\where\you\want\your\local\copy`
 - **Clone** the repo
-  1. **Run** `git clone git@github.com:Reem-lab/README.git`
-  2. **Run** `cd README/`
+  1. **Run** git clone `https://github.com/Reem-lab/create-mobile-menu`
+  2. **Run** cd create-mobile-menu
 
 
 ## Authors
